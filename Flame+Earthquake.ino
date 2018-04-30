@@ -1,11 +1,14 @@
-/* Vibration sensor connected to Arduino pins as follows:
- Arduino            Vibration Sensor
-   D9                    DOut
-   GND                   GND
-   +5V                   VCC     
-   
-   D13                Indication LED   
+/* Earthquake + fire alert code (Arduino)            
+ 
+   D9                 Vibration DOut
+   A0                 Fire AOut   
+   D12                Fire alert buzzer 
+   D13                Indication LED
+   D0                 Tx GSM
+   D1                 Rx GSM
+      
 */
+
 
 int ledPin = 13;
 int EP =9;
